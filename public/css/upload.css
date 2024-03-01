@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Open Sans', sans-serif;
+}
+.form-control {
+    border-radius: 45px;
+    border: none;
+    padding: 20px 30px;
+    max-width: 90%;
+    margin: auto;
+    border-bottom: 1px solid #ced4da;
+}
+.btn-primary {
+    background-color: #47403a;
+    border: none;
+    width: 40%;
+    padding: 10px 20px;
+    color: white;
+    margin-left: 30%;
+    margin-top: -65px;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #0f0f0f;
+}
+.mb-3 {
+    max-width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+}
+label {
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 40px;
+}
