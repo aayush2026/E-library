@@ -1,0 +1,32 @@
+/* Navbar container */
+.navbar {
+    background-color:#47403a; /* Background color */
+    border: none; /* Remove border */
+    border-radius: 0; /* Remove border radius */
+    padding: 10px;
+  }
+  
+  /* Navbar brand */
+  .navbar-brand {
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Make text bold */
+    color: white; /* Text color */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Navbar links */
+  .navbar-nav li {
+    font-size: 18px; /* Adjust font size */
+  }
+  
+  .navbar-nav li a {
+    color: white; /* Link color */
+  }
+  
+  /* Navbar links on hover */
+  .navbar-nav li a:hover {
+    font-weight: bolder;
+    color: rgb(59, 30, 4); /* Hover color */
+    background-color: white;
+    border-radius: 25px;
+  }
